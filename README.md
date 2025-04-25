@@ -13,7 +13,7 @@ A collection of custom Xcode file templates. Use them to speed up your SwiftUI d
 /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates
 
 ✅ Tip: In Finder, press **Cmd + Shift + G** and paste in the path above to jump there.
-
+‼️ If Xcode is installed in a custom location, adjust the path accordingly.
 ---
 
 ### 💻 Option 2: Using Terminal (Works Even if Xcode Isn't in /Applications)
