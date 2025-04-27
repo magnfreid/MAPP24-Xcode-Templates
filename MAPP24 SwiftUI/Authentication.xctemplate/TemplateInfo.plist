@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<dict>
+		<key>Kind</key>
+		<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+		<key>SortOrder</key>
+		<integer>1</integer>
+		<key>Description</key>
+		<string>A SwiftUI authentication flow with a service, root view, sign-in screen, registration sheet, and credentials form.</string>
+		<key>Summary</key>
+		<string>SwiftUI Authentication Flow</string>
+		<key>Platforms</key>
+		<array>
+			<string>com.apple.platform.iphoneos</string>
+		</array>
+		<key>AllowedTypes</key>
+		<array>
+			<string>public.swift-source</string>
+		</array>
+		<key>DefaultCompletionName</key>
+		<string>Authentication</string>
+		<key>Nodes</key>
+		<array>
+			<string>Services/AuthenticationService.swift</string>
+			<string>AuthenticationRootView.swift</string>
+			<string>Views/Authentication/CredentialsForm.swift</string>
+			<string>Views/Authentication/RegisterSheet.swift</string>
+			<string>Views/Authentication/SignInScreen.swift</string>
+		</array>
+		<key>Definitions</key>
+		<dict>
+			<key>Services/AuthenticationService.swift</key>
+			<dict>
+				<key>Group</key>
+				<string>Services</string>
+				<key>Path</key>
+				<string>Services/AuthenticationService.swift</string>
+				<key>Name</key>
+				<string>AuthenticationService</string>
+			</dict>
+			<key>AuthenticationRootView.swift</key>
+			<dict>
+				<key>Group</key>
+				<string></string>
+				<key>Path</key>
+				<string>AuthenticationRootView.swift</string>
+				<key>Name</key>
+				<string>AuthenticationRootView</string>
+			</dict>
+			<key>Views/Authentication/CredentialsForm.swift</key>
+			<dict>
+				<key>Group</key>
+				<string>Views/Authentication</string>
+				<key>Path</key>
+				<string>Views/Authentication/CredentialsForm.swift</string>
+				<key>Name</key>
+				<string>CredentialsForm</string>
+			</dict>
+			<key>Views/Authentication/RegisterSheet.swift</key>
+			<dict>
+				<key>Group</key>
+				<string>Views/Authentication</string>
+				<key>Path</key>
+				<string>Views/Authentication/RegisterSheet.swift</string>
+				<key>Name</key>
+				<string>RegisterSheet</string>
+			</dict>
+			<key>Views/Authentication/SignInScreen.swift</key>
+			<dict>
+				<key>Group</key>
+				<string>Views/Authentication</string>
+				<key>Path</key>
+				<string>Views/Authentication/SignInScreen.swift</string>
+				<key>Name</key>
+				<string>SignInScreen</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
