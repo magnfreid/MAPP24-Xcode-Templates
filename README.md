@@ -51,9 +51,8 @@ Creates an empty SwiftUI view and a `ViewModel` class in its own separate file.
 **Credentials Form**  
 Creates a simple login form with fields for email and password. Includes basic error message handling.
 
-**SecretsHandler**  
-Generates a utility for securely accessing API keys from a `Secrets.plist` file, which is included in the template.  
-Add your API keys to the `Secrets.plist` file manually after creation.
+**Authentication**  
+Basic template for authentication view, view model and service.
 
 **Important:** Don't forget to add `Secrets.plist` to your `.gitignore` to avoid accidentally committing sensitive information.
 
