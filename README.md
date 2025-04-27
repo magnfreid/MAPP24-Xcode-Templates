@@ -54,9 +54,6 @@ Creates a simple login form with fields for email and password. Includes basic e
 **Authentication**  
 Basic template for authentication view, view model and service.
 
-**Important:** Don't forget to add `Secrets.plist` to your `.gitignore` to avoid accidentally committing sensitive information.
-
-
 
   
 
